@@ -1,0 +1,2400 @@
+@media (min-width: 1050px)
+{
+	
+	body
+	{
+		font-family: sans-serif;
+		margin: 0;
+		padding: 0;
+		color: #7d7d7d;
+		background: #fafafa;
+		overflow-x: hidden;
+	}
+	div.menu div.upper
+	{
+		border-bottom: 1px solid silver;
+		overflow: hidden;
+		background: #fafafa;
+	}
+	div.menu a
+	{
+		color: #9c9c9c;
+		text-decoration: none;
+		display: inline-block;
+		padding: 15px 20px;
+		font-size: 0.9em;
+		float: left;
+		height: 21px;
+	}
+	div.icon
+	{
+		width: 50px;
+		height: 50px;
+		position: relative;
+		float: left;
+	}
+	div.icon:hover div.top
+	{
+		background-color: red;
+		transform: rotate(-45deg) translate(-5px, 3px);
+		transition-duration: 0.5s;
+	}
+	div.icon:hover div.middle
+	{
+		opacity: 0;
+	}
+	div.icon:hover div.bottom
+	{
+		background-color: red;
+		transform: rotate(45deg) translate(-6px, -3px);
+		transition-duration: 0.5s;
+	}
+	div.icon div
+	{
+		position: absolute;
+		width: 60%;
+		height: 2px;
+		background: #7d7d7d;
+		left: 20%;
+		top: 18px;
+	}
+	div.icon div.top
+	{
+		background: #9c9c9c;
+	}
+	div.icon div.middle
+	{
+		top: 24px;
+		background: #9c9c9c;
+	}
+	div.icon div.bottom
+	{
+		top: 30px;
+		background: #9c9c9c;
+	}
+	div.down
+	{
+		position: absolute;
+		color: #9c9c9c;
+		left: 0;
+		width: 100%;
+		padding: 0 3%;
+		z-index: -2;
+		transition-duration: .5s;
+		overflow: hidden;
+		border-bottom: 1px solid silver;
+		top: 0;
+	}
+	div.translate div.down
+	{
+		background: #fafafa;	
+	}
+	div.translate:hover div.down
+	{
+		top: 52px;
+		z-index: 1;
+	}
+	div.down a:hover
+	{
+		background-color: #f1f1f1;
+	}
+	div.menu a.right
+	{
+		float: right;
+		width: 20px;
+		font-weight: normal;
+	}
+	div.menu a.right:hover
+	{
+		color: red;
+	}
+	div.menu a.up
+	{
+		width: 50px;
+	}
+	div.menu a.up:hover
+	{
+		background-color: #f1f1f1;
+	}
+	div.menu a.right img
+	{
+		height: 20px;
+	}
+	div.menu div.logo
+	{
+		float: left;
+		width: calc(100% - 50px - 180px - 270px);
+		text-align: center;
+		font-family: 'Rubik', sans-serif;
+	}
+	div.menu div.logo h1
+	{
+		margin: 10px;
+		font-size: 1.5em;
+		padding-left: 5px;
+	}
+	div.menu div.logo h1 span.red
+	{
+		font-weight: bold;
+		color: #fa385a;
+		padding-left: 5px;
+	}
+	div.menu div.logo h1 sup
+	{
+		text-decoration: underline;
+		font-size: 0.7em;
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+
+	div.logo span.fl::before
+	{
+		content: "FLIGHT";
+	}
+	div.logo span.fl:hover::before 
+	{
+		content: "HOME";
+	}
+	div.face
+	{
+		height: 35px;
+		width: 35px;
+		float: right;
+		margin-right: 10px;
+		background-size: cover;
+		background-image: url(img/face.png);
+		margin-top: 8px;
+		opacity: 0.5;
+	}
+
+	div.face:hover
+	{
+	   opacity: 1;
+	}
+
+	div.twit
+	{
+		height: 37px;
+		width: 37px;
+		float: right;
+		background-size: cover;
+		background-image: url(img/twit.png);
+		margin-top: 7px;
+		margin-right: 10px;
+		opacity: 0.5;
+	}
+	div.twit:hover
+	{
+	   opacity: 1;
+	}
+	div.inst
+	{
+		height: 30px;
+		width: 30px;
+		z-index: 2;
+		float: right;
+		background-size: cover;
+		background-image: url(img/inst.png);
+		margin-right: 70px;
+		margin-top: 10px;
+		opacity: 0.5;
+	}
+	div.inst:hover
+	{
+	   opacity: 1;
+	}
+
+	div.content
+	{
+		width: 1000px;
+		margin: auto;
+		font-family: sans-serif;
+	}
+	div.box
+	{
+		margin-top: 45px;
+		height: 485px;
+	}
+	div.box5
+	{
+		height: 485px;
+		width: 1000px;
+		margin-top: 30px;
+	}
+	div.box div.inside_box_left
+	{
+		float: left;
+		height: 485px;
+		width: 485px;
+		position: relative;
+	}
+	div.full img
+	{
+		width: 100%;
+		height: 100%;
+	}
+	div.box div.inside_box_right, div.inside_box_right2
+	{
+		float: left;
+		height: 485px;
+		width: 485px;
+		margin-left: 30px;
+	}
+	div.top_left, div.top_left1, div.second, div.fourth
+	{
+		position: relative;
+		height: 240px;
+		width: 47%;
+		float: left;
+	}
+	div.second, div.fourth
+	{
+		margin-left: 29px;
+	}
+
+	div.top_left img , div.top_left1 img, div.first img, div.second img, div.third img, div.fourth img
+	{
+		height: 130px;
+		width: 100%;
+
+	}
+	div.img_down
+	{
+		position: relative;
+		width: 485px;
+		float: left;
+		height: 245px;
+		font-size: 1em;
+	}
+	div.top_right, div.top_right1, div.first, div.third
+	{
+		position: relative;
+		height: 240px;
+		width: 47%;
+		float: left;
+	}
+	div.top_right a, div.top_right1 a
+	{
+		margin-left: 30px;
+		display: block;
+	}
+	div.second a, div.fourth a 
+	{
+		display: block;
+	}
+	div.top_left a, div.top_left1 a, div.first a, div.third a
+	{
+		display: block;
+	}
+	div.top_right img, div.top_right1 img
+	{
+		height: 130px;
+		width: 100%;
+		margin-left: 30px;
+	}
+	div.img_down img
+	{
+		height: 100%;
+		width: 100%;
+	}
+	div.view
+	{
+		color: white;
+		position: absolute;
+		overflow: hidden;
+		top: 0;
+		left: 0;
+		z-index: 5;
+		opacity: 0;
+	}
+	div.view img
+	{
+		height: 16px;
+		width: 16px;
+		float: left;
+		margin-left: 10px;
+		margin-top: 10px;
+		
+	}
+	div.top_right div.view, div.top_right1 div.view
+	{
+		margin-left: 35px;
+	}
+	div.view span
+	{
+		font-size: 0.8em;
+		float: left;
+		margin-top: 11px;
+		margin-left: 10px;
+		font-weight: bold;
+	}
+
+	div.hoverall:hover div.view
+	{
+		opacity: 1;
+	}
+
+	a.portait
+	{
+		text-decoration: none;
+		position: absolute;
+		height: 25px;
+		width: 70px;
+		top: 380px;
+		left: 30px;
+		z-index: 5;
+		text-align: center;
+		font-size: 0.8em;
+		font-weight: bold;
+		border: 1px solid white;
+		color: white;
+		
+	}
+	a.sources
+	{
+		text-decoration: none;
+		position: absolute;
+		height: 25px;
+		width: 70px;
+		top: 110px;
+		left: 30px;
+		z-index: 5;
+		text-align: center;
+		font-size: 0.8em;
+		font-weight: bold;
+		border: 1px solid white;
+		color: white;
+		
+	}
+	a.inspiration
+	{
+		text-decoration: none;
+		position: absolute;
+		height: 25px;
+		width: 90px;
+		top: 140px;
+		left: 20px;
+		z-index: 5;
+		text-align: center;
+		font-size: 0.8em;
+		font-weight: bold;
+		border: 1px solid white;
+		color: white;
+		
+	}
+	a.world
+	{
+		text-decoration: none;
+		position: absolute;
+		height: 25px;
+		width: 50px;
+		top: 130px;
+		left: 20px;
+		z-index: 5;
+		text-align: center;
+		font-size: 0.8em;
+		font-weight: bold;
+		border: 1px solid white;
+		color: white;
+	}
+	a.project
+	{
+		text-decoration: none;
+		position: absolute;
+		height: 25px;
+		width: 70px;
+		top: 130px;
+		left: 30px;
+		z-index: 5;
+		text-align: center;
+		font-size: 0.8em;
+		font-weight: bold;
+		border: 1px solid white;
+		color: white;
+	}
+	a.portait p, a.inspiration p, a.world p, a.project p, a.sources p
+	{
+		margin-top: 5px;
+	}
+	a.portait:hover, a.inspiration:hover, a.world:hover, a.project:hover, a.sources:hover
+	{
+		color: black;
+		background: white;
+	}
+
+	div.txt
+	{
+		position: absolute;
+		top: 400px;
+		left: 30px;
+		color: white;
+		font-weight: bold;
+	}
+	div.txt p
+	{
+		font-size: 1.5em;
+		
+	}
+	div.txt6
+	{
+		position: absolute;
+		top: 130px;
+		left: 30px;
+		color: white;
+		font-weight: bold;
+	}
+	div.txt6 p
+	{
+		font-size: 1.5em;
+		
+	}
+	div.top_left a , div.top_right a, div.top_left1 a , div.top_right1 a, div.first a, div.second a, div.third a, div.fourth a
+	{
+		color: #636364;
+		width: 240px;
+		text-align: left;
+		font-weight: bold;
+		margin-top: 20px;
+		text-decoration: none;
+	}
+
+	div.txt2
+	{
+		position: absolute;
+		color: white;
+		text-align: left;
+		font-weight: bold;
+		left: 20px;
+		top: 160px;
+	}
+	div.txt2 p
+	{
+		font-size: 1.5em;
+		
+	}
+
+	div.txt3
+	{
+		position: absolute;
+		color: white;
+		text-align: left;
+		font-weight: bold;
+		left: 20px;
+		top: 150px;
+	}
+	div.txt3 p
+	{
+		font-size: 1.5em;
+		
+	}
+	div.box2, div.box4
+	{
+		height: 240px;
+		width: 100%;
+		margin-top: 30px;
+	}
+
+	div.inside_box1, div.inside_box2, div.inside_box3
+	{
+		position: relative;
+		float: left;
+	}
+	div.inside_box2
+	{
+		height: 240px;
+		width: 485px;
+		margin-left: 30px;
+	}
+	div.inside_box1 img.protest, div.inside_box2 img.protest, div.inside_box3 img.protest
+	{
+		height: 240px;
+		width: 485px;
+	}
+	div.inside_box_right2 div.top_left1
+	{
+		float: left;
+	}
+	div.inside_box_right2 div.top_right1
+	{
+		float: left;
+	}
+	div.inside_box_right2
+	{
+		height: 240px;
+	}
+	div.box3
+	{
+		position: relative;
+		height: 145px;
+		width: 100%;
+		margin-top: 30px;
+		background: url(img/fon.jpg);
+		color: white;
+		font-weight: bold;
+		font-size: 1.2em;
+	}
+	div.box3 input
+	{
+		display: block;
+		position: absolute;
+		height: 40px;
+		width: 300px;
+		right: 1%;
+		border: 1px solid silver;
+	}
+	div.box3 img
+	{
+		position: absolute;
+		height: 30px;
+		z-index: 3;
+		width: 30px;
+		top: 5px;
+		left: 2px;
+	}
+	div.box3 div.img
+	{
+		height: 40px;
+		width: 35px;
+		background-color: silver;
+		position: absolute;
+		z-index: 2;
+		left: 212px;
+	}
+	div.txtimg
+	{
+		height: 20px;
+		width: 250px;
+		position: relative;
+	}
+	div.txtinput
+	{
+		height: 100px;
+		width: 260px;
+		position: absolute;
+		left: 40%;
+		top: 10%;
+	}
+	div.box_left
+	{
+		width: 485px;
+		float: left;
+	}
+	div.box_right
+	{
+		width: 485px;
+		float: left;
+		margin-left: 30px;
+		position: relative;
+	}
+	div.box6
+	{
+		position: relative;
+		height: 200px;
+		width: 100%;
+		margin-top: 30px;
+	}
+	div.box6 img.dollar
+	{
+		width: 100%;
+		height: 100%;
+	}
+	div.box7
+	{
+		height: 100px;
+		width: 100%;
+		margin-top: 60px;
+		position: relative;
+		background: url(img/girl.jpg);
+	}
+	div.box7 div.center
+	{
+		height: 60px;
+		text-align: center;
+		width: 300px;
+		position: absolute;
+		left: 350px;
+		top: 20%;
+		color: white;
+		font-weight: bold;
+	}
+	div.box7 img.main
+	{
+		height: 100%;
+		width: 100%;
+	}
+	div.box7 img.little
+	{
+		height: 30px;
+		width: 30px;
+		margin-left: 10px;
+		float: left;
+	}
+	div.box7 img.little:hover
+	{
+		border-radius: 20%;
+		background-color: silver;
+		transition-duration: 0.5s;
+	}
+	div.box7 span
+	{
+		display: block;
+		float: left;
+		margin-top: 7px;
+		margin-left: 40px;
+	}
+	footer
+	{
+		margin-top: 100px;
+		height: 200px;
+		width: 100%;
+		bottom: 0;
+		right: 0;
+		background: url(img/fon2.jpg);
+		background-size: cover;
+		position: relative;
+	}
+	div.topf
+	{
+		height: 100px;
+		position: absolute;
+		left: 42%;
+		top: 50px;
+	}
+	div.botf
+	{
+		height: 50px;
+		position: absolute;
+		left: 35%;
+		top: 130px;
+	}
+	div.topf img.top_foot
+	{
+		height: 50px;
+		width: 50px;
+		float: left;
+		margin-left: 10px;
+		border-radius: 20%;
+		background-color: white;
+	}
+	div.topf img.top_foot:hover
+	{
+		background-color: transparent;
+		transition-duration: 0.5s;
+	}
+	div.botf a.bottom_foot
+	{
+		text-decoration: none;
+		color: white;
+		height: 10px;
+		font-weight: bold;
+		margin-left: 10px;
+	}
+	div.botf a.bottom_foot:hover
+	{
+		color: silver;
+	}
+	div.button
+	{
+		margin-top: 30px;
+		height: 200px;
+		width: 100%;
+		position: relative;
+		text-align: center;
+	}
+	div.button div.input a
+	{
+		text-decoration: none;
+		color: white;
+	}
+	div.button div.input
+	{
+		position: absolute;
+		left: 39%;
+		top: 100px;
+		width: 200px;
+		height: 50px;
+		background: silver;
+		color: white;
+		font-weight: bold;
+	}
+	div.button div.input:hover
+	{
+		transition-duration: 0.5s;
+		background: gray;
+	}
+	div.box3 img:hover
+	{
+		transform: translate(0, -3px);
+		transition-duration: 0.5s;
+	}
+	div.shadow
+	{
+		background: black;
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		opacity: 0;
+	}
+	div.shadow2
+	{
+		background: black;
+		position: absolute;
+		width: 227px;
+		height: 130px;
+		opacity: 0;
+	}
+	div.shadow3
+	{
+		background: black;
+		position: absolute;
+		width: 227px;
+		height: 130px;
+		opacity: 0;
+		margin-left: 30px;
+	}
+	div.shadow4
+	{
+		background: black;
+		position: absolute;
+		width: 485px;
+		height: 245px;
+		opacity: 0;
+	}
+	div.shadow5
+	{
+		background: black;
+		position: absolute;
+		width: 485px;
+		height: 240px;
+		opacity: 0;
+	}
+	div.shadow6
+	{
+		background: black;
+		position: absolute;
+		width: 227px;
+		height: 130px;
+		opacity: 0;
+	}
+	div.shadow7
+	{
+		background: black;
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		opacity: 0;
+	}
+	div.box6:hover div.shadow7
+	{
+		opacity: 0.5;
+		transition-duration: 0.5s;
+	}
+	div.inside_box_left:hover div.shadow, div.box_right:hover div.shadow
+	{
+		opacity: 0.5;
+		transition-duration: 0.5s;
+	}
+	div.top_left:hover div.shadow2, div.top_left1:hover div.shadow2, div.first:hover div.shadow2 ,div.third:hover div.shadow2
+	{
+		opacity: 0.5;
+		transition-duration: 0.5s;
+	}
+	div.top_right:hover div.shadow3, div.top_right1:hover div.shadow3
+	{
+		opacity: 0.5;
+		transition-duration: 0.5s;
+	}
+	div.second:hover div.shadow6, div.fourth:hover div.shadow6
+	{
+		opacity: 0.5;
+		transition-duration: 0.5s;
+	}
+	div.img_down:hover div.shadow4
+	{
+		opacity: 0.5;
+		transition-duration: 0.5s;
+	}
+	div.inside_box1:hover div.shadow5, div.inside_box2:hover div.shadow5, div.inside_box3:hover div.shadow5
+	{
+		opacity: 0.5;
+		transition-duration: 0.5s;
+	}
+	.brhid
+	{
+		display: none;
+	}
+}
+
+@media (max-width: 1050px) and (min-width: 680px)
+{
+	body
+	{
+		font-family: sans-serif;
+		margin: 0;
+		padding: 0;
+		color: #7d7d7d;
+		background: #fafafa;
+		overflow-x: hidden;
+	}
+	div.menu div.upper
+	{
+		border-bottom: 1px solid silver;
+		overflow: hidden;
+		background: #fafafa;
+	}
+	div.menu a
+	{
+		color: #9c9c9c;
+		text-decoration: none;
+		padding: 15px 20px;
+		font-size: 0.9em;
+		height: 21px;
+	}
+	div.icon
+	{
+		width: 50px;
+		height: 50px;
+		position: relative;
+		float: left;
+			z-index: 5;
+	}
+	div.icon:hover div.top
+	{
+		background-color: red;
+		transform: rotate(-45deg) translate(-5px, 3px);
+		transition-duration: 0.5s;
+	}
+	div.icon:hover div.middle
+	{
+		opacity: 0;
+	}
+	div.icon:hover div.bottom
+	{
+		background-color: red;
+		transform: rotate(45deg) translate(-6px, -3px);
+		transition-duration: 0.5s;
+	}
+	div.icon div
+	{
+		position: absolute;
+		width: 60%;
+		height: 2px;
+		background: #7d7d7d;
+		left: 20%;
+		top: 18px;
+	}
+	div.icon div.top
+	{
+		background: #9c9c9c;
+	}
+	div.icon div.middle
+	{
+		top: 24px;
+		background: #9c9c9c;
+	}
+	div.icon div.bottom
+	{
+		top: 30px;
+		background: #9c9c9c;
+	}
+	div.down
+	{
+		position: absolute;
+		color: #9c9c9c;
+		font-size: 1.4em;
+		height: 600px;
+		width: 100%;
+		display: none;
+		padding: 0;
+		z-index: 3;
+		transition-duration: .5s;
+		overflow: hidden;
+		background: #fafafa;
+		border-bottom: 1px solid silver;
+		top: 80px;
+		padding-top: 10px;
+		text-align: center;
+	}
+	div.translate:hover div.down
+	{ 
+		display: block;
+	}
+	a#lupa
+	{
+		display: block;
+		position: absolute;
+		z-index: 5;
+		right: 0;
+		top: 0;
+	}
+	div.down a
+	{
+		display: block;
+		z-index: 4;
+		background: #fafafa;
+		padding-top: 20px;
+	}
+	div.translate div.down
+	{
+		background: #fafafa;	
+	}
+	div.translate
+	{
+
+	}
+	div.down a:hover
+	{
+		background-color: #f1f1f1;
+	}
+
+	div.menu .right
+	{
+		display: none;
+	}
+	div.menu a.up
+	{
+		display: none;
+		z-index: 3;
+		position: absolute;
+		width: 100%;
+	}
+	div.menu a.up:hover
+	{
+		background-color: #f1f1f1;
+	}
+	div.menu a.right img
+	{
+		height: 20px;
+	}
+	div.menu div.logo
+	{
+		display: flex;
+		position: absolute;
+		top: 0;
+		justify-content: center;
+		width: 100%;
+		text-align: center;
+		font-family: 'Rubik', sans-serif;
+	}
+	div.menu div.logo h1
+	{
+		margin: 10px;
+		font-size: 1.5em;
+		padding-left: 5px;
+	}
+	div.menu div.logo h1 span.red
+	{
+		font-weight: bold;
+		color: #fa385a;
+		padding-left: 5px;
+	}
+	div.menu div.logo h1 sup
+	{
+		text-decoration: underline;
+		font-size: 0.7em;
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+
+	div.logo span.fl::before
+	{
+		content: "FLIGHT";
+	}
+	div.logo span.fl:hover::before 
+	{
+		content: "HOME";
+	}
+	div.icons
+	{
+		margin-top: 80px;
+		width: 100%;
+		height: 50px;
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+		text-align: center;
+		justify-content: center;
+	}
+	div.face
+	{
+		height: 35px;
+		width: 35px;
+		float: right;
+		margin-right: 10px;
+		background-size: cover;
+		background-image: url(img/face.png);
+		margin-top: 8px;
+		opacity: 0.5;
+		text-align: center;
+
+		justify-content: center;
+
+	}
+
+	div.face:hover
+	{
+	   opacity: 1;
+	}
+
+	div.twit
+	{
+		height: 37px;
+		width: 37px;
+		float: right;
+		background-size: cover;
+		background-image: url(img/twit.png);
+		margin-top: 7px;
+		margin-right: 10px;
+		opacity: 0.5;
+		text-align: center;
+
+		justify-content: center;
+	}
+	div.twit:hover
+	{
+	   opacity: 1;
+	}
+	div.inst
+	{
+		height: 30px;
+		width: 30px;
+		z-index: 2;
+		float: right;
+		background-size: cover;
+		background-image: url(img/inst.png);
+		margin-right: 10px;
+		margin-top: 10px;
+		opacity: 0.5;
+		text-align: center;
+
+		justify-content: center;
+	}
+	div.inst:hover
+	{
+	   opacity: 1;
+	}
+
+	div.content
+	{
+		width: 600px;
+		margin: auto;
+		font-family: sans-serif;
+	}
+	div.box
+	{
+		margin-top: 45px;
+		height: 1330px;
+	}
+	div.box2
+	{
+		height: 660px;
+		width: 100%;
+		margin-top: 30px;
+	}
+	div.box4
+	{
+		height: 740px;
+		width: 100%;
+		margin-top: 30px;
+	}
+	div.box3
+	{
+		position: relative;
+		height: 145px;
+		width: 100%;
+		background: url(img/fon.jpg);
+		color: white;
+		font-weight: bold;
+		font-size: 1.2em;
+	}
+	div.box5
+	{
+		height: 1150px;
+		width: 100%;
+		margin-top: 60px;
+	}
+	div.box6
+	{
+		position: relative;
+		height: 230px;
+		width: 100%;
+		margin-top: 70px;
+	}
+	div.box7
+	{
+		height: 100px;
+		width: 100%;
+		margin-top: 70px;
+		position: relative;
+		background: url(img/girl.jpg);
+	}
+
+	div.full img
+	{
+		width: 100%;
+		height: 100%;
+	}
+
+	div.box div.inside_box_right, div.inside_box_right2
+	{
+		height: 600px;
+		width: 600px;
+		margin:auto;
+	}
+	div.img_down
+	{
+		position: relative;
+		width: 600px;
+		margin: auto;
+		height: 300px;
+		font-size: 1em;
+	}
+	div.top_right, div.top_right1, div.first, div.third
+	{
+		position: relative;
+		height: 250px;
+		width: 48%;
+		float: left;
+	}
+	div.top_left, div.top_left1, div.second, div.fourth
+	{
+		position: relative;
+		height: 250px;
+		width: 47%;
+		float: left;
+	}
+	div.second, div.fourth
+	{
+		margin-left: 29px;
+	}
+
+	div.top_left img , div.top_left1 img, div.first img, div.second img, div.third img, div.fourth img
+	{
+		height: 130px;
+		width: 100%;
+	}
+	div.top_right a, div.top_right1 a
+	{
+		margin-left: 30px;
+		display: block;
+	}
+	div.second a, div.fourth a 
+	{
+		display: block;
+	}
+	div.top_left a, div.top_left1 a, div.first a, div.third a
+	{
+		display: block;
+	}
+	div.top_right img, div.top_right1 img
+	{
+		height: 130px;
+		width: 100%;
+		margin-left: 30px;
+	}
+	div.img_down img
+	{
+		height: 100%;
+		width: 100%;
+	}
+
+	div.view
+	{
+		color: gray;
+		position: absolute;
+		overflow: hidden;
+		top: 0;
+		left: 0;
+		z-index: 5;
+		opacity: 0;
+		display: none;
+	}
+	div.view img
+	{
+		height: 16px;
+		width: 16px;
+		float: left;
+		margin-left: 10px;
+		margin-top: 10px;
+		
+	}
+	div.top_right div.view, div.top_right1 div.view
+	{
+		margin-left: 35px;
+	}
+
+
+	div.view span
+	{
+		font-size: 0.8em;
+		float: left;
+		margin-top: 11px;
+		margin-left: 10px;
+		font-weight: bold;
+	}
+	a.portait
+	{
+		text-decoration: none;
+		position: absolute;
+		height: 25px;
+		width: 70px;
+		top: 610px;
+		left: 43%;
+		z-index: 5;
+		text-align: center;
+		font-size: 0.8em;
+		font-weight: bold;
+		color: gray;
+		
+	}
+	a.sources
+	{
+		text-decoration: none;
+		position: absolute;
+		height: 25px;
+		width: 70px;
+		top: 210px;
+		left: 43%;
+		z-index: 5;
+		text-align: center;
+		font-size: 0.8em;
+		font-weight: bold;
+		color: gray;
+		
+	}
+	a.inspiration
+	{
+		text-decoration: none;
+		position: absolute;
+		height: 25px;
+		width: 90px;
+		top: 560px;
+		left: 43%;
+		z-index: 5;
+		text-align: center;
+		font-size: 0.8em;
+		font-weight: bold;
+		color: gray;
+		
+	}
+	a.world
+	{
+		text-decoration: none;
+		position: absolute;
+		height: 25px;
+		width: 50px;
+		top: 310px;
+		left: 43%;
+		z-index: 5;
+		text-align: center;
+		font-size: 0.8em;
+		font-weight: bold;
+		color: gray;
+	}
+	a.project
+	{
+		text-decoration: none;
+		position: absolute;
+		height: 25px;
+		width: 70px;
+		top: 310px;
+		left: 43%;
+		z-index: 5;
+		text-align: center;
+		font-size: 0.8em;
+		font-weight: bold;
+		color: gray;
+	}
+	a.portait p, a.inspiration p, a.world p, a.project p, a.sources p
+	{
+		margin-top: 5px;
+	}
+	a.portait:hover, a.inspiration:hover, a.world:hover, a.project:hover, a.sources:hover
+	{
+		color: black;
+	}
+	div.txt
+	{
+		position: absolute;
+		top: 620px;
+		left: 30px;
+		color: #484D4F;
+		font-weight: bold;
+	}
+	div.txt p
+	{
+		font-size: 1.2em;
+		
+	}
+	div.txt6
+	{
+		position: absolute;
+		top: 220px;
+		left: 30px;
+		color: #484D4F;
+		font-weight: bold;
+	}
+	div.txt6 p
+	{
+		font-size: 1.2em;
+		
+	}
+	div.top_left a , div.top_right a, div.top_left1 a , div.top_right1 a, div.first a, div.second a, div.third a, div.fourth a
+	{
+		color: #636364;
+		width: 240px;
+		text-align: left;
+		font-weight: bold;
+		margin-top: 20px;
+		text-decoration: none;
+	}
+
+	div.txt2
+	{
+		position: absolute;
+		color: #484D4F;
+		text-align: left;
+		font-weight: bold;
+		left: 30px;
+		top: 580px;
+	}
+	div.txt2 p
+	{
+		font-size: 1.2em;
+	}
+
+	div.txt3
+	{
+		position: absolute;
+		color: #484D4F;
+		text-align: left;
+		font-weight: bold;
+		left: 30px;
+		top: 320px;
+	}
+	.brhover
+	{
+		display: none;
+	}
+	div.txt3 p
+	{
+		font-size: 1.2em;
+	}
+	
+	div.box3 input
+	{
+		display: block;
+		position: absolute;
+		height: 40px;
+		width: 300px;
+		right: 1%;
+		border: 1px solid silver;
+	}
+	div.box3 img
+	{
+		position: absolute;
+		height: 30px;
+		z-index: 3;
+		width: 30px;
+		top: 5px;
+		left: 2px;
+	}
+	div.box3 div.img
+	{
+		height: 40px;
+		width: 35px;
+		background-color: silver;
+		position: absolute;
+		z-index: 2;
+		left: 212px;
+	}
+	div.txtimg
+	{
+		height: 20px;
+		width: 250px;
+		position: relative;
+	}
+	div.txtinput
+	{
+		height: 100px;
+		width: 260px;
+		position: absolute;
+		left: 35%;
+		top: 10%;
+	}
+	div.box_left
+	{
+		width: 100%;
+		float: left;
+	}
+	div.box_right
+	{
+		width: 100%;
+		float: left;
+		height: 600px;
+		position: relative;
+	}
+	
+	div.box6 img.dollar
+	{
+		width: 100%;
+		height: 85%;
+	}
+	
+	div.box7 div.center
+	{
+		height: 60px;
+		text-align: center;
+		width: 300px;
+		position: absolute;
+		left: 30%;
+		top: 20%;
+		color: #484D4F;
+		font-weight: bold;
+	}
+	div.box7 img.main
+	{
+		height: 100%;
+		width: 100%;
+	}
+	div.box7 img.little
+	{
+		height: 30px;
+		width: 30px;
+		margin-left: 10px;
+		float: left;
+	}
+	div.box7 img.little:hover
+	{
+		border-radius: 20%;
+		background-color: silver;
+		transition-duration: 0.5s;
+	}
+	div.box7 span
+	{
+		display: block;
+		float: left;
+		margin-top: 7px;
+		margin-left: 40px;
+	}
+
+	div.box div.inside_box_left
+	{
+		
+		height: 600px;
+		width: 600px;
+		margin:auto;
+		position: relative;
+		margin-bottom: 100px;
+	}
+	div.inside_box1, div.inside_box2, div.inside_box3
+	{
+		position: relative;
+		height: 360px;
+		width: 600px;
+		margin-top: 30px;
+	}
+	div.inside_box2
+	{
+		height: 290px;
+		width: 600px;
+	}
+	div.inside_box1 img.protest, div.inside_box2 img.protest, div.inside_box3 img.protest
+	{
+		height: 300px;
+		width: 600px;
+	}
+	div.inside_box_right2 div.top_left1
+	{
+		float: left;
+	}
+	div.inside_box_right2 div.top_right1
+	{
+		float: left;
+	}
+	div.inside_box_right2
+	{
+		height: 300px;
+		margin-top: 60px;
+	}
+	div.inside_box_right3
+	{
+		height: 300px;
+		margin-top: 120px;
+	}
+	footer
+	{
+		margin-top: 100px;
+		height: 200px;
+		width: 100%;
+		bottom: 0;
+		right: 0;
+		background: url(img/fon2.jpg);
+		background-size: cover;
+		position: relative;
+	}
+	div.topf
+	{
+		height: 100px;
+		position: absolute;
+		left: 36%;
+		top: 50px;
+	}
+	div.botf
+	{
+		height: 50px;
+		position: absolute;
+		left: 22%;
+		top: 130px;
+	}
+	div.topf img.top_foot
+	{
+		height: 50px;
+		width: 50px;
+		float: left;
+		margin-left: 10px;
+		border-radius: 20%;
+		background-color: white;
+	}
+	div.topf img.top_foot:hover
+	{
+		background-color: transparent;
+		transition-duration: 0.5s;
+	}
+	div.botf a.bottom_foot
+	{
+		text-decoration: none;
+		color: white;
+		height: 10px;
+		font-weight: bold;
+		margin-left: 10px;
+	}
+	div.botf a.bottom_foot:hover
+	{
+		color: silver;
+	}
+	div.button
+	{
+		margin-top: 30px;
+		height: 200px;
+		width: 100%;
+		position: relative;
+		text-align: center;
+	}
+	div.button div.input a
+	{
+		text-decoration: none;
+		color: white;
+	}
+	div.button div.input
+	{
+		position: absolute;
+		left: 30%;
+		top: 100px;
+		width: 200px;
+		height: 50px;
+		background: silver;
+		color: white;
+		font-weight: bold;
+	}
+	div.button div.input:hover
+	{
+		transition-duration: 0.5s;
+		background: gray;
+	}
+	div.box3 img:hover
+	{
+		transform: translate(0, -3px);
+		transition-duration: 0.5s;
+	}
+	.brhid
+	{
+		display: none;
+	}
+}
+
+@media (max-width: 680px)
+{
+	body
+	{
+		font-family: sans-serif;
+		margin: 0;
+		padding: 0;
+		color: #7d7d7d;
+		background: #fafafa;
+		overflow-x: hidden;
+	}
+	div.menu div.upper
+	{
+		border-bottom: 1px solid silver;
+		overflow: hidden;
+		background: #fafafa;
+	}
+	div.menu a
+	{
+		color: #9c9c9c;
+		text-decoration: none;
+		padding: 15px 20px;
+		font-size: 0.9em;
+		height: 21px;
+	}
+	div.icon
+	{
+		width: 50px;
+		height: 50px;
+		position: relative;
+		float: left;
+		z-index: 5;
+	}
+	div.icon:hover div.top
+	{
+		background-color: red;
+		transform: rotate(-45deg) translate(-5px, 3px);
+		transition-duration: 0.5s;
+	}
+	div.icon:hover div.middle
+	{
+		opacity: 0;
+	}
+	div.icon:hover div.bottom
+	{
+		background-color: red;
+		transform: rotate(45deg) translate(-6px, -3px);
+		transition-duration: 0.5s;
+	}
+	div.icon div
+	{
+		position: absolute;
+		width: 60%;
+		height: 2px;
+		background: #7d7d7d;
+		left: 20%;
+		top: 18px;
+	}
+	div.icon div.top
+	{
+		background: #9c9c9c;
+	}
+	div.icon div.middle
+	{
+		top: 24px;
+		background: #9c9c9c;
+	}
+	div.icon div.bottom
+	{
+		top: 30px;
+		background: #9c9c9c;
+	}
+	div.down
+	{
+		position: absolute;
+		color: #9c9c9c;
+		font-size: 1.4em;
+		height: 700px;
+		width: 100%;
+		display: none;
+		padding: 0;
+		z-index: 6;
+		transition-duration: .5s;
+		overflow: hidden;
+		background: #fafafa;
+		border-bottom: 1px solid silver;
+		top: 90px;
+		padding-top: 10px;
+		text-align: center;
+	}
+	div.translate:hover div.down
+	{ 
+		display: block;
+	}
+	a#lupa
+	{
+		display: block;
+		position: absolute;
+		z-index: 5;
+		right: 0;
+		top: 0;
+	}
+	div.down a
+	{
+		display: block;
+		z-index: 4;
+		background: #fafafa;
+		padding-top: 20px;
+	}
+	div.translate div.down
+	{
+		background: #fafafa;	
+	}
+	div.translate
+	{
+
+	}
+	div.down a:hover
+	{
+		background-color: #f1f1f1;
+	}
+
+	div.menu .right
+	{
+		display: none;
+	}
+	div.menu a.up
+	{
+		display: none;
+		z-index: 3;
+		position: absolute;
+		width: 100%;
+	}
+	div.menu a.up:hover
+	{
+		background-color: #f1f1f1;
+	}
+	div.menu a.right img
+	{
+		height: 20px;
+	}
+	div.menu div.logo
+	{
+		display: flex;
+		position: absolute;
+		top: 0;
+		justify-content: center;
+		width: 100%;
+		text-align: center;
+		font-family: 'Rubik', sans-serif;
+	}
+	div.menu div.logo h1
+	{
+		margin: 10px;
+		font-size: 1.5em;
+		padding-left: 5px;
+	}
+	div.menu div.logo h1 span.red
+	{
+		font-weight: bold;
+		color: #fa385a;
+		padding-left: 5px;
+	}
+	div.menu div.logo h1 sup
+	{
+		text-decoration: underline;
+		font-size: 0.7em;
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+
+	div.logo span.fl::before
+	{
+		content: "FLIGHT";
+	}
+	div.logo span.fl:hover::before 
+	{
+		content: "HOME";
+	}
+	div.icons
+	{
+		margin-top: 80px;
+		width: 100%;
+		height: 50px;
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+		text-align: center;
+		justify-content: center;
+	}
+	div.face
+	{
+		height: 35px;
+		width: 35px;
+		float: right;
+		margin-right: 10px;
+		background-size: cover;
+		background-image: url(img/face.png);
+		margin-top: 8px;
+		opacity: 0.5;
+		text-align: center;
+		justify-content: center;
+	}
+	div.face:hover
+	{
+	   opacity: 1;
+	}
+
+	div.twit
+	{
+		height: 37px;
+		width: 37px;
+		float: right;
+		background-size: cover;
+		background-image: url(img/twit.png);
+		margin-top: 7px;
+		margin-right: 10px;
+		opacity: 0.5;
+		text-align: center;
+		justify-content: center;
+	}
+	div.twit:hover
+	{
+	   opacity: 1;
+	}
+	div.inst
+	{
+		height: 30px;
+		width: 30px;
+		z-index: 2;
+		float: right;
+		background-size: cover;
+		background-image: url(img/inst.png);
+		margin-right: 10px;
+		margin-top: 10px;
+		opacity: 0.5;
+		text-align: center;
+		justify-content: center;
+	}
+	div.inst:hover
+	{
+	   opacity: 1;
+	}
+
+	a.portait
+	{
+		text-decoration: none;
+		position: absolute;
+		height: 25px;
+		width: 70px;
+		top: 410px;
+		left: 43%;
+		z-index: 5;
+		text-align: center;
+		font-size: 0.8em;
+		font-weight: bold;
+		color: gray;
+	}
+	a.sources
+	{
+		text-decoration: none;
+		position: absolute;
+		height: 25px;
+		width: 70px;
+		top: 210px;
+		left: 43%;
+		z-index: 5;
+		text-align: center;
+		font-size: 0.8em;
+		font-weight: bold;
+		color: gray;
+	}
+	a.inspiration
+	{
+		text-decoration: none;
+		position: absolute;
+		height: 25px;
+		width: 90px;
+		top: 410px;
+		left: 43%;
+		z-index: 5;
+		text-align: center;
+		font-size: 0.8em;
+		font-weight: bold;
+		color: gray;
+	}
+	a.world
+	{
+		text-decoration: none;
+		position: absolute;
+		height: 25px;
+		width: 50px;
+		top: 210px;
+		left: 43%;
+		z-index: 5;
+		text-align: center;
+		font-size: 0.8em;
+		font-weight: bold;
+		color: gray;
+	}
+	a.project
+	{
+		text-decoration: none;
+		position: absolute;
+		height: 25px;
+		width: 70px;
+		top: 210px;
+		left: 43%;
+		z-index: 5;
+		text-align: center;
+		font-size: 0.8em;
+		font-weight: bold;
+		color: gray;
+	}
+	a.portait p, a.inspiration p, a.world p, a.project p, a.sources p
+	{
+		margin-top: 5px;
+	}
+	a.portait:hover, a.inspiration:hover, a.world:hover, a.project:hover, a.sources:hover
+	{
+		color: black;
+	}
+
+	div.content
+	{
+		width: 400px;
+		margin: auto;
+		font-family: sans-serif;
+	}
+	div.box
+	{
+		margin-top: 45px;
+		height: 990px;
+	}
+	div.box2
+	{
+		height: 560px;
+		width: 100%;
+		margin-top: 30px;
+	}
+	div.box4
+	{
+		height: 640px;
+		width: 100%;
+		margin-top: 30px;
+	}
+	div.box3
+	{
+		position: relative;
+		height: 145px;
+		width: 100%;
+		background: url(img/fon.jpg);
+		color: white;
+		font-weight: bold;
+		font-size: 1.2em;
+	}
+	div.box5
+	{
+		height: 920px;
+		width: 100%;
+		margin-top: 30px;
+	}
+	div.box6
+	{
+		position: relative;
+		height: 230px;
+		width: 100%;
+		margin-top: 70px;
+	}
+	div.box7
+	{
+		height: 100px;
+		width: 100%;
+		margin-top: 70px;
+		position: relative;
+		background: url(img/girl.jpg);
+	}
+
+	div.full img
+	{
+		width: 100%;
+		height: 100%;
+	}
+
+	div.box div.inside_box_right, div.inside_box_right2
+	{
+		height: 400px;
+		width: 100%;
+		margin:auto;
+	}
+	div.img_down
+	{
+		position: relative;
+		width: 100%;
+		margin: auto;
+		height: 150px;
+		font-size: 1em;
+	}
+	div.top_right, div.top_right1, div.first, div.third
+	{
+		position: relative;
+		height: 250px;
+		width: 48%;
+		float: left;
+	}
+	div.top_left, div.top_left1, div.second, div.fourth
+	{
+		position: relative;
+		height: 250px;
+		width: 47%;
+		float: left;
+	}
+	div.second, div.fourth
+	{
+		margin-left: 20px;
+	}
+
+	div.top_left img , div.top_left1 img, div.first img, div.second img, div.third img, div.fourth img
+	{
+		height: 130px;
+		width: 100%;
+	}
+	div.top_right a, div.top_right1 a
+	{
+		margin-left: 20px;
+		display: block;
+	}
+	div.second a, div.fourth a 
+	{
+		display: block;
+	}
+	div.top_left a, div.top_left1 a, div.first a, div.third a
+	{
+		display: block;
+	}
+	div.top_right img, div.top_right1 img
+	{
+		height: 130px;
+		width: 100%;
+		margin-left: 20px;
+	}
+	div.img_down img
+	{
+		height: 100%;
+		width: 100%;
+	}
+	div.view
+	{
+		color: gray;
+		position: absolute;
+		overflow: hidden;
+		top: 0;
+		left: 0;
+		z-index: 5;
+		opacity: 0;
+		display: none;
+	}
+	div.view img
+	{
+		height: 16px;
+		width: 16px;
+		float: left;
+		margin-left: 10px;
+		margin-top: 10px;
+		
+	}
+	div.top_right div.view, div.top_right1 div.view
+	{
+		margin-left: 35px;
+	}
+	div.view span
+	{
+		font-size: 0.8em;
+		float: left;
+		margin-top: 11px;
+		margin-left: 10px;
+		font-weight: bold;
+	}
+	
+	div.txt
+	{
+		position: absolute;
+		top: 420px;
+		left: 10px;
+		color: #484D4F;
+		font-weight: bold;
+	}
+	div.txt p
+	{
+		font-size: 1.2em;
+		
+	}
+	div.txt6
+	{
+		position: absolute;
+		top: 220px;
+		left: 10px;
+		color: #484D4F;
+		font-weight: bold;
+	}
+	div.txt6 p
+	{
+		font-size: 1.2em;
+		
+	}
+	div.top_left a , div.top_right a, div.top_left1 a , div.top_right1 a, div.first a, div.second a, div.third a, div.fourth a
+	{
+		color: #636364;
+		text-align: left;
+		font-weight: bold;
+		margin-top: 20px;
+		font-size: 0.8em;
+		text-decoration: none;
+	}
+
+	div.txt2
+	{
+		position: absolute;
+		color: #484D4F;
+		text-align: left;
+		font-weight: bold;
+		left: 10px;
+		top: 425px;
+	}
+	div.txt2 p
+	{
+		font-size: 1.2em;
+	}
+
+	div.txt3
+	{
+		position: absolute;
+		color: #484D4F;
+		text-align: left;
+		font-weight: bold;
+		left: 10px;
+		top: 230px;
+	}
+	.brhover
+	{
+		display: none;
+	}
+	div.txt3 p
+	{
+		font-size: 1.2em;
+	}
+	
+	div.box3 input
+	{
+		display: block;
+		position: absolute;
+		height: 40px;
+		width: 300px;
+		right: 1%;
+		border: 1px solid silver;
+	}
+	div.box3 img
+	{
+		position: absolute;
+		height: 30px;
+		z-index: 3;
+		width: 30px;
+		top: 5px;
+		left: 2px;
+	}
+	div.box3 div.img
+	{
+		height: 40px;
+		width: 35px;
+		background-color: silver;
+		position: absolute;
+		z-index: 2;
+		left: 212px;
+	}
+	div.txtimg
+	{
+		height: 20px;
+		width: 250px;
+		position: relative;
+	}
+	div.txtinput
+	{
+		height: 100px;
+		width: 260px;
+		position: absolute;
+		left: 25%;
+		top: 10%;
+	}
+	div.box_left
+	{
+		width: 100%;
+		height: 400px;
+		float: left;
+	}
+	div.box_right
+	{
+		width: 100%;
+		float: left;
+		margin-top: 80px;
+		height: 400px;
+		position: relative;
+	}
+	
+	div.box6 img.dollar
+	{
+		width: 100%;
+		height: 85%;
+	}
+	
+	div.box7 div.center
+	{
+		height: 60px;
+		text-align: center;
+		width: 300px;
+		position: absolute;
+		left: 15%;
+		top: 20%;
+		color: #484D4F;
+		font-weight: bold;
+	}
+	div.box7 img.main
+	{
+		height: 100%;
+		width: 100%;
+	}
+	div.box7 img.little
+	{
+		height: 30px;
+		width: 30px;
+		margin-left: 10px;
+		float: left;
+	}
+	div.box7 img.little:hover
+	{
+		border-radius: 20%;
+		background-color: silver;
+		transition-duration: 0.5s;
+	}
+	div.box7 span
+	{
+		display: block;
+		float: left;
+		margin-top: 7px;
+		margin-left: 40px;
+	}
+	div.box div.inside_box_left
+	{
+		
+		height: 400px;
+		width: 100%;
+		margin:auto;
+		position: relative;
+		margin-bottom: 100px;
+	}
+	div.inside_box1
+	{
+		position: relative;
+		height: 320px;
+		width: 100%;
+		margin-top: 30px;
+	}
+	div.inside_box2, div.inside_box3
+	{
+		position: relative;
+		height: 290px;
+		width: 100%;
+		margin-top: 30px;
+	}
+	div.inside_box1 img.protest, div.inside_box2 img.protest, div.inside_box3 img.protest
+	{
+		height: 200px;
+		width: 100%;
+	}
+	div.inside_box_right2 div.top_left1
+	{
+		float: left;
+	}
+	div.inside_box_right2 div.top_right1
+	{
+		float: left;
+	}
+	div.inside_box_right2
+	{
+		height: 300px;
+	}
+	div.inside_box_right3
+	{
+		height: 300px;
+		margin-top: 120px;
+	}
+	footer
+	{
+		margin-top: 100px;
+		height: 200px;
+		width: 100%;
+		bottom: 0;
+		right: 0;
+		background: url(img/fon2.jpg);
+		background-size: cover;
+		position: relative;
+	}
+	div.topf
+	{
+		height: 100px;
+		position: absolute;
+		left: 35%;
+		top: 50px;
+	}
+		.brhid
+	{
+		display: block;
+	}
+	div.botf
+	{
+		height: 50px;
+		width: 150px;
+		text-align: center;
+		position: absolute;
+		left: 35%;
+		top: 110px;
+	}
+	div.topf img.top_foot
+	{
+		height: 40px;
+		width: 40px;
+		float: left;
+		margin-left: 10px;
+		border-radius: 20%;
+		background-color: white;
+	}
+	div.topf img.top_foot:hover
+	{
+		background-color: transparent;
+		transition-duration: 0.5s;
+	}
+	div.botf a.bottom_foot
+	{
+		display: block;
+		text-decoration: none;
+		color: white;
+		height: 10px;
+		font-weight: bold;
+		margin-top: 1px;
+		font-size: 0.8em;
+		margin-left: 10px;
+	}
+	div.botf a.bottom_foot:hover
+	{
+		color: silver;
+	}
+	div.button
+	{
+		margin-top: 30px;
+		height: 200px;
+		width: 100%;
+		position: relative;
+		text-align: center;
+	}
+	div.button div.input a
+	{
+		text-decoration: none;
+		color: white;
+	}
+	div.button div.input
+	{
+		position: absolute;
+		left: 25%;
+		top: 100px;
+		width: 200px;
+		height: 50px;
+		background: silver;
+		color: white;
+		font-weight: bold;
+	}
+	div.button div.input:hover
+	{
+		transition-duration: 0.5s;
+		background: gray;
+	}
+	div.box3 img:hover
+	{
+		transform: translate(0, -3px);
+		transition-duration: 0.5s;
+	}
+}
